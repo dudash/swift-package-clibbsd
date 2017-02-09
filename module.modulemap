@@ -1,0 +1,6 @@
+module ClibBSD [system] {
+    header "/usr/include/bsd/bsd.h"
+    header "/usr/include/bsd/unistd.h"
+    link "bsd"
+    export *
+}
